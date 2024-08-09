@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "test:watch": "jest --watchAll",
     "build": "webpack --config webpack.config.js --mode=production",
     "watch": "webpack --devtool eval-source-map -w"
