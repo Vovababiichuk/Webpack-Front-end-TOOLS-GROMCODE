@@ -1,19 +1,17 @@
-import { printProfile } from "./profile";
+// file path: src/index.js
 
-const UserData = {
-	name: 'Tom',
-	age: 17,
+import printProfile from './renderProfile';
+
+const userData = {
+  name: 'Tom',
+  age: 17,
 };
 
 const profile = {
-	...UserData,
-	company: 'Gromcode',
+  ...userData,
+  company: 'Gromcode',
 };
 
 printProfile(profile);
 
-const num = 17;
-
-if (num === 18) {
-	alert('Hello!!!');
-}
+console.log(profile);
